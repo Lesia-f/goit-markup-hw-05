@@ -40,9 +40,17 @@
     </header>
 
     <main>
+        
         <section class="hero">
+            
              <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-             <button type="submit">Заказать услугу</button>
+             <button class="submit" data-modal-open>Заказать услугу</button>
+    
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal"><p></p>
+         <button class="close" data-modal-close></button></div>
+        </div>
+           
         </section> 
 
 <!-- особенности фирмы-->
@@ -68,9 +76,9 @@
      <div class="container">  
                <h2 class="work">Чем мы занимаемся</h2>
                <ul class="img-work">
-                   <li class="img"><img src="./images/box1opt.jpg" alt="печатает на ноутбуке на столе" width="370"></li>
-                   <li class="img"><img src="./images/box2opt.jpg" alt="держит в левой руке сматрфон и печатает правой рукой на ноутбуке" width="370"></li>
-                   <li class="img"><img src="./images/box3opt.jpg" alt="выбирате цвет на планшете" width="370"></li>
+                   <li class="img"><img src="./images/box1opt.jpg" alt="печатает на ноутбуке на ст</div>оле" width="370"><div class="text-work"><p class="p-work">десктопные приложения</p></div></li>
+                   <li class="img"><img src="./images/box2opt.jpg" alt="держит в левой руке сматрфон и печатает правой рукой на ноутбуке" width="370"><div class="text-work"><p class="p-work">мобильные приложения</p></div></li>
+                   <li class="img"><img src="./images/box3opt.jpg" alt="выбирате цвет на планшете" width="370"><div class="text-work"><p class="p-work">дизайнерские решения</p></div></li>
                </ul>
              </div>
        
@@ -175,6 +183,7 @@
    
     </footer>
 
+    <script src="./js/modal.js"></script>
     </body>
 </html>
 
