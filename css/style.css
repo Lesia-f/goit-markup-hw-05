@@ -341,39 +341,45 @@ padding: 15px;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-
 }
-
-button.close {
-    display: flex;
+ 
+ .button-modal-open {
+    font-family: inherit;
+    background: var(--accent-color);
+    color: var(--accent-color-2);
+    padding: 10px 32px;
+    border-radius: 4px;  
+    display: inline-block;
+    min-width: 200px;  
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
+    border: 1px solid transparent;
+    }
+.button-modal-close {
+    display: inline-flex;
     width: 30px;
-    height: 30px;
-    background-image: url(../images/icons/close.svg);
-    background-color: #FFFFFF;
-   border: 1px solid  rgba(255, 255, 255, 1); 
-   border-radius: 50%;
-    background-repeat: no-repeat; 
-    top:0;
-    right:0;
-    
+height: 30px;
+padding:0;
+border-radius: 50%;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+justify-content: center;
+}
+ .close {
+width: 11px;
+height: 11px;
+fill:currentColor;
+left: 0px;
+top: 0px;
+
  }
 
-button {
-        font-family: inherit;
-        background: var(--accent-color);
-        color: var(--accent-color-2);
-       padding: 10px 32px;
-       border-radius: 4px;  
-       display: inline-block;
-       min-width: 200px;  
-       font-size: 16px;
-       text-align: center;
-       font-weight: 700;
-       line-height: 1.86;
-       letter-spacing: 0.06em;
-       border: 1px solid transparent;
-    }
-    
+
+
  a {     
     text-decoration: none;
     color: inherit; 
@@ -709,6 +715,20 @@ height: 44px;
         width: 1200px; }
 
         .portfolio-nav {
+            font-family: inherit;
+            background: var(--accent-color);
+            color: var(--accent-color-2);
+            padding: 10px 32px;
+            border-radius: 4px;  
+            display: inline-block;
+            min-width: 200px;  
+            font-size: 16px;
+            text-align: center;
+            font-weight: 700;
+            line-height: 1.86;
+            letter-spacing: 0.06em;
+            border: 1px solid transparent;
+           
             color: var(--title-text-color);
             background: var(--background-color-2);
             font-family: inherit;
